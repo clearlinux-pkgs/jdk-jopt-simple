@@ -1,0 +1,5 @@
+python3 /usr/share/java-utils/pom_editor.py pom_xpath_remove "pom:build/pom:extensions"
+python3 /usr/share/java-utils/pom_editor.py pom_remove_dep org.infinitest:continuous-testing-toolkit
+python3 /usr/share/java-utils/pom_editor.py pom_remove_plugin org.pitest:pitest-maven
+python3 /usr/share/java-utils/pom_editor.py pom_remove_plugin org.codehaus.mojo:cobertura-maven-plugin
+python3 /usr/share/java-utils/pom_editor.py pom_remove_plugin org.apache.maven.plugins:maven-pmd-plugin
