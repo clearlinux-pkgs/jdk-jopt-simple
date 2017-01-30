@@ -4,7 +4,7 @@
 #
 Name     : jdk-jopt-simple
 Version  : jopt.simple.4.6
-Release  : 1
+Release  : 2
 URL      : https://github.com/pholser/jopt-simple/archive/jopt-simple-4.6.tar.gz
 Source0  : https://github.com/pholser/jopt-simple/archive/jopt-simple-4.6.tar.gz
 Summary  : No detailed summary available
@@ -16,6 +16,7 @@ BuildRequires : apache-maven2
 BuildRequires : javapackages-tools
 BuildRequires : jdk-aether
 BuildRequires : jdk-aopalliance
+BuildRequires : jdk-apache-parent
 BuildRequires : jdk-atinject
 BuildRequires : jdk-cdi-api
 BuildRequires : jdk-commons-cli
@@ -26,6 +27,7 @@ BuildRequires : jdk-commons-io
 BuildRequires : jdk-commons-lang
 BuildRequires : jdk-commons-lang3
 BuildRequires : jdk-commons-logging
+BuildRequires : jdk-commons-parent
 BuildRequires : jdk-doxia
 BuildRequires : jdk-doxia-sitetools
 BuildRequires : jdk-guava
